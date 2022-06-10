@@ -6,9 +6,9 @@ class DegreeTypes extends Component {
       super(props);
           this.state={
                 degreeTypes: [
-                {degreeId:1, degreeName:"Celsius", degreeValue:0},
-                {degreeId:2, degreeName:"Fahrenheit", degreeValue:0},
-                {degreeId:3, degreeName:"Kelvin", degreeValue:0}
+                {degreeId:1, degreeName:"Celsius"},
+                {degreeId:2, degreeName:"Fahrenheit"},
+                {degreeId:3, degreeName:"Kelvin"}
             ],
       };
   }  
